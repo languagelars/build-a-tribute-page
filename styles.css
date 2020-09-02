@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* End of Reset */
+
+/* Global Styles */
+
+body {
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
+}
+
+img {
+  max-width: 95%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+/* End of Global Styles */
+
+/* Utilities */
+
+.wrapper {
+  width: 95%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.lead {
+  font-weight: 300;
+  font-size: 1.1rem;
+  opacity: .75;
+}
+
+/* End of Utilities */
+
+/* Header */
+
+#main-header {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+#title {
+  font-size: 3.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+
+/* End of Header */
+
+/* Image Div */
+
+#img-div {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+#image {
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  transition: box-shadow, transform .3s ease-out;
+}
+
+#image:hover {
+  transform: scale(.95);
+}
+
+#img-caption {
+  display: inline-block;
+  color: #333;
+  line-height: 1.7;
+}
+
+/* End of Image Div */
+
+/* Tribute Info */
+
+#tribute-info {
+  background-color: #222;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+#tribute-heading {
+  margin-bottom: 1.5rem;
+}
+
+#tribute-list li:not(:last-child) {
+  margin-bottom: .5rem;
+}
+
+/* End of Tribute Info */
+
+/* Footer */
+
+#main-footer {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+#tribute-link {
+  font-style: italic;
+  color: #333;
+  text-decoration: underline;
+  opacity: .75;
+}
+
+/* End of Footer */
